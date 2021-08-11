@@ -1,0 +1,9 @@
+.dashboard_navbar {
+  order: 0;
+  position: sticky;
+  top: 0;
+}
+
+.dashboard_study-material-list {
+  padding: 10px;
+}

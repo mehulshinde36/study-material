@@ -1,0 +1,46 @@
+.studyMaterial_navbar {
+  order: 0;
+  position: sticky;
+  top: 0;
+}
+
+.studyMaterial_top-section {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.studyMaterial_file-name,
+.studyMaterial_time-remaining {
+  height: 50px;
+  border: 1px solid lightgray;
+  width: 33%;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.studyMaterial_pdf-frame {
+  margin: 0 15px 0 15px;
+  border: 1px solid lightgray;
+  height: 70vh;
+  overflow: scroll;
+}
+
+.studyMaterial_bottom-section {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.studyMaterial_pdf-navigation {
+  display: flex;
+  width: 15vh;
+  justify-content: space-between;
+}
+
+.studyMaterial_time-remaining-text {
+  display: flex;
+}
